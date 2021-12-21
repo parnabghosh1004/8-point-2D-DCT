@@ -28,6 +28,7 @@ Assuming that the input eight points are x0, x1, x2, x3, x4, x5, x6, x7, 1D-DCT 
   Y7 = [x0-x7]*C7+[x1-x6]*(-C5)+[x2-x5]*C3+[x3-x4]*(-C1) = [s0_7]*C7+[s1_6]*(-C5)+[s2_5]*C3+[s3_4]*(-C1)
  
  
-Where C0 = 1/2 * cos(π/4),      C1 = 1/2 * cos(π/16),      C2 = 1/2 * cos(2π/16),      C3 = 1/2 * cos(3π/16),
+Where 
 
+      C0 = 1/2 * cos(π/4),      C1 = 1/2 * cos(π/16),      C2 = 1/2 * cos(2π/16),      C3 = 1/2 * cos(3π/16),
       C4 = 1/2 * cos(4π/16),    C5 = 1/2 * cos(5π/16),     C6 = 1/2 * cos(6π/16),      C7 = 1/2 * cos(7π/16).
