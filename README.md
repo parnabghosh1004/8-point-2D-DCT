@@ -31,4 +31,5 @@ Assuming that the input eight points are x0, x1, x2, x3, x4, x5, x6, x7, 1D-DCT 
      = [f0_7]*C7+[f1_6]*(-C5)+[f2_5]*C3+[f3_4]*(-C1)
  
 Where C0 = 1/2 * cos(π/4),      C1 = 1/2 * cos(π/16),      C2 = 1/2 * cos(2π/16),      C3 = 1/2 * cos(3π/16),
+
       C4 = 1/2 * cos(4π/16),    C5 = 1/2 * cos(5π/16),     C6 = 1/2 * cos(6π/16),      C7 = 1/2 * cos(7π/16).
