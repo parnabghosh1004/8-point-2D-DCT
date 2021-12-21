@@ -10,24 +10,24 @@ With row-column decomposition, the 8 point 1D-DCT is applied to each row of the 
 ### 1D-DCT module
 Assuming that the input eight points are x0, x1, x2, x3, x4, x5, x6, x7, 1D-DCT computing equation can be simplified as (4) based on the characteristic of the symmetry and rotation for DCT coefficients.
   
-  Y0 = [(x0+x7)+(x1+x6)+(x2+x5)+(x3+x4)]*C4 (s07341625)*C4
+  Y0 = [(x0+x7)+(x1+x6)+(x2+x5)+(x3+x4)]*C4 = [s07341625]*C4
   
-  Y1 = (x0-x7)*C1+(x1-x6)*C3+(x2-x5)*C5+(x3-x4)*C7
-     = f0_7*C1+f1_6*C3+f2_5*C5+f3_4*C7
+  Y1 = [x0-x7]*C1+[x1-x6]*C3+[x2-x5]*C5+[x3-x4]*C7
+     = [f0_7]*C1+[f1_6]*C3+[f2_5]*C5+[f3_4]*C7
   
-  Y2 = [(x0+x7)-(x3+x4)]*C2+[(x1+x6)-(x2+x5)]*C6 (s07_34)*C2+(s16_25)*C6
+  Y2 = [(x0+x7)-(x3+x4)]*C2+[(x1+x6)-(x2+x5)]*C6 = [s07_34]*C2+[16_25]*C6
   
-  Y3 = (x0-x7)*C3+(x1-x6)*(-C7)+(x2-x5)*(-C1)+(x3-x4)*(-C5)
-     = f0_7*C3+f1_6*(-C7)+f2_5*(-C1)+f3_4*(-C5)
+  Y3 = [x0-x7]*C3-[x1-x6]*C7-[x2-x5]*C1-[x3-x4]*C5
+     = [f0_7]*C3+[f1_6]*(-C7)+[f2_5]*(-C1)+[f3_4]*(-C5)
  
-  Y4 = [(x0+x7)+(x3+x4)-(x1+x6)-(x2+x5)]*C4 (s0734_1625)*C4
+  Y4 = [(x0+x7)+(x3+x4)-(x1+x6)-(x2+x5)]*C4 = [s0734_1625]*C4
   
-  Y5 = (x0-x7)*C5+(x1-x6)*(-C1)+(x2-x5)*C7+(x3-x4)*C3
-     = f0_7*C5+f1_6*(-C1)+f2_5*C7+f3_4*C3
+  Y5 = [x0-x7]*C5+[x1-x6]*(-C1)+[x2-x5]*C7+[x3-x4]*C3
+     = [f0_7]*C5+[f1_6]*(-C1)+[f2_5]*C7+[f3_4]*C3
   
-  Y6 = [(x0+x7)-(x3+x4)]*C6-[(x1+x6)-(x2+x5)]*C2 (s07_34)*C6+(s16_25)*(-C2)
+  Y6 = [(x0+x7)-(x3+x4)]*C6-[(x1+x6)-(x2+x5)]*C2 = [s07_34]*C6+[s16_25]*(-C2)
   
-  Y7 = (x0-x7)*C7+(x1-x6)*(-C5)+(x2-x5)*C3+(x3-x4)*(-C1)
-     = f0_7*C7+f1_6*(-C5)+f2_5*C3+f3_4*(-C1)
+  Y7 = [x0-x7]*C7+[x1-x6]*(-C5)+[x2-x5]*C3+[x3-x4]*(-C1)
+     = [f0_7]*C7+[f1_6]*(-C5)+[f2_5]*C3+[f3_4]*(-C1)
  
 Where C1 = 1/2 * cos(π/16)，C2 = 1/2 * cos(2π/16)，C3 = 1/2 * cos(3π/16)，C4 = 1/2 * cos(4π/16)，C5 = 1/2 * cos(5π/16)，C6 = 1/2 * cos(6π/16) and C7 = 1/2 * cos(7π/16)
