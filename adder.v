@@ -18,7 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-module adder(
+module adder( // 24-Bit Adder
 	 input [23:0]A,
 	 input [23:0]B,
 	 input Cin,
@@ -31,29 +31,16 @@ module adder(
     adder8 E3(.a(A[23:16]), .b(B[23:16]), .cin(ripple2), .sum(Sum[23:16]), .carry(Cout));
 endmodule
 
-module adder12(
-    input [11:0] a,
-    input [11:0] b,
+module adder16(
+    input [15:0] a,
+    input [15:0] b,
     input cin,
-    output [11:0] sum,
+    output [15:0] sum,
     output carry
     );
-    wire ripple;
-    adder8 E4(.a(a[11:4]),  .b(b[11:4]), .cin(cin),    .sum(sum[7:0]), .carry(ripple));
-    adder4 F1( .a(a[3:0]),  .b(b[3:0]),  .cin(ripple), .sum(sum[3:0]), .carry(carry));
-endmodule
-
-module adder10(
-    input [9:0] a,
-    input [9:0] b,
-    input cin,
-    output [9:0] sum,
-    output carry
-    );
-    wire ripple1,ripple2;
-    adder8 E5(.a(a[7:0]),   .b(b[7:0]),.cin(cin),    .sum(sum[7:0]),.carry(ripple1));
-    adder_full A1(.a(a[8]), .b(b[8]),  .cin(ripple1),.sum(sum[8]),  .carry(ripple2));
-    adder_full A2(.a(a[9]), .b(b[9]),  .cin(ripple2),.sum(sum[9]),  .carry(carry));
+    wire ripple1;
+    adder8 E5(.a(a[7:0]),  .b(b[7:0]),  .cin(cin),     .sum(sum[7:0]),  .carry(ripple1));
+    adder8 E6(.a(a[15:8]), .b(b[15:8]), .cin(ripple1), .sum(sum[15:8]), .carry(carry));
 endmodule
 
 module adder8(
@@ -106,20 +93,26 @@ and(carry,a,b);
 endmodule
 
 module complement(
-	 input [9:0]I,
+	 input [15:0]I,
 	 input X,
-	 output [9:0]O
+	 output [15:0]O
 	 );
-	 xor(O[9], X, I[9]);
-	 xor(O[8], X, I[8]);
-     xor(O[7], X, I[7]);
-     xor(O[6], X, I[6]);
-     xor(O[5], X, I[5]);
-     xor(O[4], X, I[4]);
-     xor(O[3], X, I[3]);
-     xor(O[2], X, I[2]);
-     xor(O[1], X, I[1]);
-     xor(O[0], X, I[0]);
+xor(O[15], X, I[15]);
+xor(O[14], X, I[14]);
+xor(O[13], X, I[13]);
+xor(O[12], X, I[12]);
+xor(O[11], X, I[11]);
+xor(O[10], X, I[10]);
+xor(O[9],  X, I[9]);
+xor(O[8],  X, I[8]);
+xor(O[7],  X, I[7]);
+xor(O[6],  X, I[6]);
+xor(O[5],  X, I[5]);
+xor(O[4],  X, I[4]);
+xor(O[3],  X, I[3]);
+xor(O[2],  X, I[2]);
+xor(O[1],  X, I[1]);
+xor(O[0],  X, I[0]);
 endmodule
 
 

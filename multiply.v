@@ -21,16 +21,12 @@
 
 
 module multiply(
-    input [10:0]A, // MSB is sign bit
-    input [10:0]B, // MSB is sign bit
-    output [19:0]R,
-    output signR
+    input [16:0]A, // MSB is sign bit
+    input [16:0]B, // MSB is sign bit
+    output [32:0]R // MSB is sign bit
     );
-    wire [9:0]operandA,operandB;
-    //
-    xor(signR,A[10],B[10]);
-    assign operandA[9:0] = A[9:0];
-    assign operandB[9:0] = B[9:0];
-    //
-    assign R[19:0] = operandA[9:0]*operandB[9:0];
+    // Multiplying two 16-Bit numbers
+    assign R[31:0] = A[15:0]*B[15:0];
+    // Finding the sign of result after multiplication
+    xor(R[32],A[16],B[16]);
 endmodule
