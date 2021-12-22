@@ -18,6 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+// Will be used to add the results after multiplications
 module Adder_Block (
     input [31:0]A,
     input [31:0]B,
