@@ -26,21 +26,21 @@ module RAM(
     output [23:0]dout
     );
 	 
-	 reg [23:0] memory[63:0];
+    reg [23:0] memory[63:0];
     reg [23:0] temp;
 
     always @(posedge clk)
     begin
       if(write_enable)
-		   memory[addr] <= din;
+         memory[addr] <= din;
     end
 
     always @(posedge clk)
     begin
       if(!write_enable)
-		   temp <= memory[addr];
+         temp <= memory[addr];
     end
-	 
-	 assign dout = !write_enable ? temp : 'hz;
+
+    assign dout = !write_enable ? temp : 'hz;
 
 endmodule
