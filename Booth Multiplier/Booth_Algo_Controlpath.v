@@ -56,23 +56,23 @@ module Booth_Algo_Controlpath(ldA,ldQ,ldM,clrA,clrQ,clrDff,sftA,sftQ,addsub,decr
 			end
 		S1: 
 			begin
-				ldM=1; clrA=1; clrDff=1; ldCount=1;
+				ldM=1;ldQ=1; clrA=1; clrDff=1; ldCount=1;
 			end
 		S2: 
 			begin
-				ldQ=1; clrA=0; clrDff=0; ldCount=0; ldM=0;
+			    clrA=0; clrDff=0; ldCount=0; ldM=0; ldQ = 0;
 			end
 		S3: 
 			begin
-				ldQ=0; ldA=1; addsub=0; sftA=0; sftQ=0; decr = 0;
+				ldA=1; addsub=0; sftA=0; sftQ=0; decr = 0;
 			end
 		S4: 
 			begin
-				ldQ=0; ldA=1; addsub=1; sftA=0; sftQ=0; decr = 0;
+				ldA=1; addsub=1; sftA=0; sftQ=0; decr = 0;
 			end	
 		S5: 
 			begin
-				ldA=0; ldQ=0; sftA=1; sftQ=1; decr = 1;
+				ldA=0;sftA=1; sftQ=1; decr = 1;
 			end		
 		S6: begin done = 1; sftA=0; sftQ=0; decr=0;end
 		default: 
@@ -83,4 +83,3 @@ module Booth_Algo_Controlpath(ldA,ldQ,ldM,clrA,clrQ,clrDff,sftA,sftQ,addsub,decr
 	end
 
 endmodule
-
