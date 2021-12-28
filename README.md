@@ -32,3 +32,10 @@ Where
 
       C0 = 1/2 * cos(π/4),      C1 = 1/2 * cos(π/16),      C2 = 1/2 * cos(2π/16),      C3 = 1/2 * cos(3π/16),
       C4 = 1/2 * cos(4π/16),    C5 = 1/2 * cos(5π/16),     C6 = 1/2 * cos(6π/16),      C7 = 1/2 * cos(7π/16).
+
+Schematic of simple 2D DCT
+![dct2d-1](https://user-images.githubusercontent.com/76876019/147546544-ac29a490-ac3d-439b-85fd-382b483ef437.jpg)
+
+
+Schematic of Final Submission
+![g12](https://user-images.githubusercontent.com/76876019/147553070-bbfa9ce5-aa41-44e6-9e26-1c77ace4c397.png)
