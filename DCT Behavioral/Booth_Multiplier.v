@@ -54,7 +54,7 @@ module Booth_Multiplier(A,B,start,rst,clk,R,done);
     Booth_Algo_Controlpath CP(rst,ldA,ldQ,ldM,clrA,clrQ,clrDff,sftA,sftQ,addsub,decr,ldCount,isCountZero,Q0,Qm1,start,done,clk);
 
     assign out = {DP.A,DP.Q};
-    assign R = out[31:16];
+    assign R = out[30:15];
     
 
 endmodule
