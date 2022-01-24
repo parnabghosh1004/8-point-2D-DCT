@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DCT_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DCT_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="71250000fs"></ZoomStartTime>
+      <ZoomEndTime time="517250001fs"></ZoomEndTime>
+      <Cursor1Time time="599250000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="212"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/DCT_TB/Data_tb" type="array">
+      <obj_property name="ElementShortName">Data_tb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_tb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/Addr_tb" type="array">
+      <obj_property name="ElementShortName">Addr_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/DP/ram/memory" type="array">
+      <obj_property name="ElementShortName">memory[63:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[63:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DCT_TB/DP/ram/memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/start1" type="logic">
+      <obj_property name="ElementShortName">start1</obj_property>
+      <obj_property name="ObjectShortName">start1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/rstCt1" type="logic">
+      <obj_property name="ElementShortName">rstCt1</obj_property>
+      <obj_property name="ObjectShortName">rstCt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/rstCt2" type="logic">
+      <obj_property name="ElementShortName">rstCt2</obj_property>
+      <obj_property name="ObjectShortName">rstCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/setCt2" type="logic">
+      <obj_property name="ElementShortName">setCt2</obj_property>
+      <obj_property name="ObjectShortName">setCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/incCt1" type="logic">
+      <obj_property name="ElementShortName">incCt1</obj_property>
+      <obj_property name="ObjectShortName">incCt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/incCt2" type="logic">
+      <obj_property name="ElementShortName">incCt2</obj_property>
+      <obj_property name="ObjectShortName">incCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/clrReg" type="logic">
+      <obj_property name="ElementShortName">clrReg</obj_property>
+      <obj_property name="ObjectShortName">clrReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enROM" type="logic">
+      <obj_property name="ElementShortName">enROM</obj_property>
+      <obj_property name="ObjectShortName">enROM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enDecoder" type="logic">
+      <obj_property name="ElementShortName">enDecoder</obj_property>
+      <obj_property name="ObjectShortName">enDecoder</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enDCT" type="logic">
+      <obj_property name="ElementShortName">enDCT</obj_property>
+      <obj_property name="ObjectShortName">enDCT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/loadOutReg" type="logic">
+      <obj_property name="ElementShortName">loadOutReg</obj_property>
+      <obj_property name="ObjectShortName">loadOutReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/start2" type="logic">
+      <obj_property name="ElementShortName">start2</obj_property>
+      <obj_property name="ObjectShortName">start2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isCt17" type="logic">
+      <obj_property name="ElementShortName">isCt17</obj_property>
+      <obj_property name="ObjectShortName">isCt17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isCt27" type="logic">
+      <obj_property name="ElementShortName">isCt27</obj_property>
+      <obj_property name="ObjectShortName">isCt27</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isAddr63" type="logic">
+      <obj_property name="ElementShortName">isAddr63</obj_property>
+      <obj_property name="ObjectShortName">isAddr63</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/done2" type="logic">
+      <obj_property name="ElementShortName">done2</obj_property>
+      <obj_property name="ObjectShortName">done2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/multiplexed_input" type="logic">
+      <obj_property name="ElementShortName">multiplexed_input</obj_property>
+      <obj_property name="ObjectShortName">multiplexed_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/done1" type="logic">
+      <obj_property name="ElementShortName">done1</obj_property>
+      <obj_property name="ObjectShortName">done1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/ldPIPOIn" type="array">
+      <obj_property name="ElementShortName">ldPIPOIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ldPIPOIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/load_line" type="array">
+      <obj_property name="ElementShortName">load_line[7:0]</obj_property>
+      <obj_property name="ObjectShortName">load_line[7:0]</obj_property>
+   </wvobject>
+</wave_config>
