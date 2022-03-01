@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DCT_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DCT_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14769000000fs"></ZoomStartTime>
+      <ZoomEndTime time="15002400001fs"></ZoomEndTime>
+      <Cursor1Time time="14974600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="199"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/DCT_TB/Data_tb" type="array">
+      <obj_property name="ElementShortName">Data_tb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_tb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/Addr_tb" type="array">
+      <obj_property name="ElementShortName">Addr_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/CP/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/start1" type="logic">
+      <obj_property name="ElementShortName">start1</obj_property>
+      <obj_property name="ObjectShortName">start1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/rstCt1" type="logic">
+      <obj_property name="ElementShortName">rstCt1</obj_property>
+      <obj_property name="ObjectShortName">rstCt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/rstCt2" type="logic">
+      <obj_property name="ElementShortName">rstCt2</obj_property>
+      <obj_property name="ObjectShortName">rstCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/setCt2" type="logic">
+      <obj_property name="ElementShortName">setCt2</obj_property>
+      <obj_property name="ObjectShortName">setCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/incCt1" type="logic">
+      <obj_property name="ElementShortName">incCt1</obj_property>
+      <obj_property name="ObjectShortName">incCt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/incCt2" type="logic">
+      <obj_property name="ElementShortName">incCt2</obj_property>
+      <obj_property name="ObjectShortName">incCt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/clrReg" type="logic">
+      <obj_property name="ElementShortName">clrReg</obj_property>
+      <obj_property name="ObjectShortName">clrReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enROM" type="logic">
+      <obj_property name="ElementShortName">enROM</obj_property>
+      <obj_property name="ObjectShortName">enROM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enDecoder" type="logic">
+      <obj_property name="ElementShortName">enDecoder</obj_property>
+      <obj_property name="ObjectShortName">enDecoder</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/enDCT" type="logic">
+      <obj_property name="ElementShortName">enDCT</obj_property>
+      <obj_property name="ObjectShortName">enDCT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/loadOutReg" type="logic">
+      <obj_property name="ElementShortName">loadOutReg</obj_property>
+      <obj_property name="ObjectShortName">loadOutReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/start2" type="logic">
+      <obj_property name="ElementShortName">start2</obj_property>
+      <obj_property name="ObjectShortName">start2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isCt17" type="logic">
+      <obj_property name="ElementShortName">isCt17</obj_property>
+      <obj_property name="ObjectShortName">isCt17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isCt27" type="logic">
+      <obj_property name="ElementShortName">isCt27</obj_property>
+      <obj_property name="ObjectShortName">isCt27</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/isAddr63" type="logic">
+      <obj_property name="ElementShortName">isAddr63</obj_property>
+      <obj_property name="ObjectShortName">isAddr63</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/done2" type="logic">
+      <obj_property name="ElementShortName">done2</obj_property>
+      <obj_property name="ObjectShortName">done2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/multiplexed_input" type="logic">
+      <obj_property name="ElementShortName">multiplexed_input</obj_property>
+      <obj_property name="ObjectShortName">multiplexed_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/done1" type="logic">
+      <obj_property name="ElementShortName">done1</obj_property>
+      <obj_property name="ObjectShortName">done1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/ldPIPOIn" type="array">
+      <obj_property name="ElementShortName">ldPIPOIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ldPIPOIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/load_line" type="array">
+      <obj_property name="ElementShortName">load_line[7:0]</obj_property>
+      <obj_property name="ObjectShortName">load_line[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DCT_TB/DP/RAM/memory" type="array">
+      <obj_property name="ElementShortName">memory[63:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[63:0][15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>
