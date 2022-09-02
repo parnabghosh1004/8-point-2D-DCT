@@ -36,3 +36,7 @@ Where
 
 Schematic of Final Submission
 ![g12](https://user-images.githubusercontent.com/76876019/147553070-bbfa9ce5-aa41-44e6-9e26-1c77ace4c397.png)
+
+ASM chart for our design
+![Adobe Scan 02-Sep-2022_1](https://user-images.githubusercontent.com/76876019/188152150-6f0e0cdd-be58-40c9-bbfa-ba3516789240.jpg)
+
